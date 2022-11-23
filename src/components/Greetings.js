@@ -12,11 +12,11 @@ const Greetings = () => {
 
   return (
     <div>
-      <h2>Please Refresh to get a new Message</h2>
-      <h1>
+      <h2> Refresh to get random greetings</h2>
+      <h2>
         Greeting Message:
         <span>{message}</span>
-      </h1>
+      </h2>
     </div>
   );
 };
